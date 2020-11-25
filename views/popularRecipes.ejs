@@ -1,0 +1,15 @@
+<% popularRecipes.forEach(recipe => {%>
+  <li class="recipe" >
+    <h2 class="recipeTitle"><%=recipe.title%></h2>
+    <img class="recipeImage" src="<%=recipe.image%>" alt="<%=recipe.title%>"/>
+    <p>Servings: <%=recipe.servings%></p>
+    <h3>Ingredients:</h3>
+    <%recipe.ingredients.forEach(ingredient => {%>
+      <p><%=ingredient%></p>
+    <%});%>
+    <h3>Steps:</h3>
+    <%recipe.steps.forEach(step => {%>
+      <p><%=step%></p>
+    <%});%>
+  </li>
+<%});%>

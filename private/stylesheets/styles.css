@@ -1,0 +1,144 @@
+/*
+logo font
+*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/*
+main font
+*/
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+:root{
+  --main-color: #F1E3B4;
+  --sub-color: #D68A1D;
+  --font-color: #251e07;
+  --font-sub-color: #fcf0df;
+  --christmas-red: #D02743;
+  --christmas-green: #19A936;
+  --menu-color: white;
+}
+
+/*
+remove the default values
+*/
+
+h2{
+  margin: 0;
+}
+
+li{
+  list-style: none;
+}
+
+/*
+body
+*/
+
+body{
+  background-color: var(--main-color);
+  font-family: 'Overpass', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+#mainNav{
+  background-color: var(--sub-color);
+  position: relative;
+  height: 80px;
+}
+
+#logo h1{
+  font-family: 'Dancing Script', cursive;
+  margin: 0;
+  position: absolute;
+  top: 27%;
+  left: 10%;
+  color: var(--font-color);
+  font-size: 2.5em;
+}
+
+#menu{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.line{
+  width: 50px;
+  height: 8px;
+  margin-bottom: 10px;
+  background-color: var(--menu-color);
+}
+
+/* #nav{
+  display: none;
+} */
+
+#banner{
+  background-image: url("../images/banner02.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 600px;
+}
+
+#searchContainer{
+  margin-left: 30%;
+}
+
+#searchText{
+  color: var(--font-sub-color);
+  font-size: 2.5em;
+  padding-top: 10%;
+  margin-bottom: 1%;
+}
+
+#searchInput{
+  padding: 10px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.fa-search{
+  color: var(--font-sub-color);
+  font-size: 2.6em;
+  padding-left: 30px;
+}
+
+#addBtn{
+  width: 130px;
+  height: 70px;
+  margin-left: 20%;
+}
+
+.containerTitle{
+  text-transform: uppercase;
+  margin: 5% 0 5% 10%;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.recipeGrid{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: center;
+}
+
+.recipeTitle{
+  margin-bottom: 10%;
+}
+
+.recipe{
+  margin-bottom: 20%;
+}
+
+.recipeImage{
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+footer{
+  background-color: var(--sub-color);
+  height: 100px;
+}
