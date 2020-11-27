@@ -9,6 +9,7 @@ main font
 :root{
   --main-color: #F1E3B4;
   --sub-color: #D68A1D;
+  --sub-hover-color: #b97617;
   --font-color: #251e07;
   --font-sub-color: #fcf0df;
   --christmas-red: #D02743;
@@ -24,8 +25,15 @@ h2{
   margin: 0;
 }
 
+ul{
+  margin: 0;
+  padding: 0;
+}
+
 li{
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -57,9 +65,7 @@ body{
 }
 
 #menu{
-  position: absolute;
-  top: 20%;
-  right: 10%;
+  display: none;
 }
 
 .line{
@@ -69,9 +75,22 @@ body{
   background-color: var(--menu-color);
 }
 
-/* #nav{
-  display: none;
-} */
+#nav{
+  position: absolute;
+  right: 4%;
+  top: 23%;
+}
+
+#nav li{
+  font-size: 1.4em;
+  display: inline;
+  padding-left: 20px;
+}
+
+#nav li:hover{
+  font-size: 1.7em;
+  cursor: pointer;
+}
 
 #banner{
   background-image: url("../images/banner02.jpg");
@@ -88,7 +107,7 @@ body{
 #searchText{
   color: var(--font-sub-color);
   font-size: 2.5em;
-  padding-top: 10%;
+  padding-top: 20%;
   margin-bottom: 1%;
 }
 
@@ -128,8 +147,13 @@ body{
   margin-bottom: 10%;
 }
 
+.recipeSubTitle{
+  font-size: 2em;
+}
+
 .recipe{
   margin-bottom: 20%;
+  text-align: center;
 }
 
 .recipeImage{
@@ -138,7 +162,88 @@ body{
   border-radius: 15px;
 }
 
+.recipeContent{
+  text-align: left;
+  padding: 10%;
+}
+
 footer{
   background-color: var(--sub-color);
   height: 100px;
+}
+
+@media screen and (max-width: 1300px){
+
+  #menu{
+    display: block;
+    position: absolute;
+    top: 20%;
+    right: 10%;
+  }
+
+  #nav{
+    display: none;
+    position: static;
+    margin: 0 0 10% 0;
+    padding-top: 9%;
+    background-color: var(--sub-color);
+    height: 170px;
+  }
+
+  #nav li{
+    display: block;
+    font-size: 1.4em;
+    padding: 1% 0 1% 10%;
+  }
+
+  #nav li:hover{
+    background-color: var(--sub-hover-color);
+  }
+
+  #searchText{
+    padding-top: 30%;
+  }
+}
+
+@media screen and (max-width: 1100px){
+
+  #nav{
+    padding-top: 15%;
+  }
+
+  #searchContainer{
+    display: none;
+  }
+
+  .recipeGrid{
+    display: block;
+  }
+
+  .recipeContent{
+    padding: 5% 10% 10% 10%;
+  }
+
+  .recipe{
+    margin-bottom: 0;
+  }
+
+  .recipeTitle{
+    font-size: 1.9em;
+    margin-bottom: 6%;
+  }
+
+  .recipeImage{
+    width: 500px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 900px){
+  .containerTitle{
+    text-align: center;
+    margin: 5% 0 5% 0;
+  }
+  .recipeContent{
+    padding: 5% 15% 10% 15%;
+  }
 }

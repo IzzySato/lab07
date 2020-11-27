@@ -5,11 +5,13 @@ const recipeTemplate = ({title, image, servings, ingredients, steps}) =>
   <li class="recipe" >
     <h2 class="recipeTitle">${title}</h2>
     <img class="recipeImage" src="${image}" alt="${title}"/>
-    <p>Servings: ${servings}</p>
-    <h3>Ingredients:</h3>
-    <ul>${listTemplate(ingredients)}</ul>
-    <h3>Steps:</h3>
-    <ul>${listTemplate(steps)}</ul>
+    <div class="recipeContent">
+      <p>Servings: ${servings}</p>
+      <h3 class="recipeSubTitle">Ingredients:</h3>
+      <ul>${listTemplate(ingredients)}</ul>
+      <h3 class="recipeSubTitle">Steps:</h3>
+      <ul>${listTemplate(steps)}</ul>
+    </div>
   </li>`;
 
   const renderRecipes = (recipes, target) => {
@@ -19,6 +21,10 @@ const recipeTemplate = ({title, image, servings, ingredients, steps}) =>
   };
 
   const loadNav = () => {
+    $('#menu').click(()=> {
+      $('#nav').toggle();
+    });
+
     $.ajax({
       url: '/nav',
       dataType: 'html',
@@ -64,8 +70,8 @@ const loadNewRecipes = () => {
   });
 };
 
+
 $().ready(() => {
-  console.log('ready');
   loadNav();
   loadNewRecipes();
   loadPopuRecipes();

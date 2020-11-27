@@ -2,9 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 const nav = [
-  {link: '/newRecipes', title: 'New Recipes'},
-  {link: '/popularRecipes', title: 'Popular Recipes'},
-  {link: '/addRecipe', title: 'Add a new Recipe'}
+  {id: 'popu', link: '/popularRecipes', title: 'Popular Recipes'},
+  {id: 'addReci', link: '/addRecipe', title: 'Add a new Recipe'}
 ];
 
 /* GET home page. */
