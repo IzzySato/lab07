@@ -4,16 +4,16 @@ const newRecipes = require('../data/newRecipes');
 const popularRecipes = require('../data/popularRecipes');
 
 /* GET home page */
-router.get('/new', function(req, res, next) {
+router.get('/new', (req, res) => {
   res.json(newRecipes);
 });
 
-router.get('/popularRecipes', function(req, res, next) {
+router.get('/popularRecipes', (req, res) => {
   res.render('popularRecipes', {popularRecipes});
 });
 
 /* POST home page */
-router.post('/comments', function(req, res){
+router.post('/comments', (req, res) =>{
   res.setHeader('Content-Type', 'application/json');
   const { id, comment } = req.body;
   console.log(`comment for ${id} - ${comment}`);

@@ -17,7 +17,7 @@ const newRecipes = [
         '3. Place turkey in the oven, and pour 2 cups turkey stock into the bottom of the roasting pan. Baste all over every 30 minutes with the juices on the bottom of the pan. Whenever the drippings evaporate, add stock to moisten them, about 1 to 2 cups at a time. Remove aluminum foil after 2 1/2 hours. Roast until a meat thermometer inserted in the meaty part of the thigh reads 165 degrees F (75 degrees C), about 4 hours.',
         '4. Transfer the turkey to a large serving platter, and let it stand for at least 20 to 30 minutes before carving.'
       ],
-      comments: ['test', 'test1']
+      comments: ['Very Tasty', 'Yes, agreed!']
     },
     {
       id: 2,
@@ -40,7 +40,7 @@ const newRecipes = [
         '3. Stir in buttermilk, vanilla, lemon juice and nutmeg; pour into pie shell.',
         '4. Bake for 40 to 60 minutes, or until center is firm.'
       ],
-      comments: ['test3']
+      comments: ['I will try this tonight!']
     },
     {
       id: 3,
@@ -65,7 +65,7 @@ const newRecipes = [
         '1. Fill a large pot with lightly salted water and bring to a rolling boil over high heat. Once the water is boiling, stir in the penne, and return to a boil. Cook the pasta uncovered, stirring occasionally, until the pasta has cooked through, but is still firm to the bite, about 11 minutes. Drain well in a colander set in the sink.',
         '2. Heat the olive oil in a skillet over medium heat. Stir in the garlic and onion; cook and stir until the onion has softened and turned translucent, about 5 minutes. Stir in the tomatoes; simmer until heated through, about 5 minutes more. Add the lemon juice and shrimp. Cook and stir until the shrimp are bright pink on the outside and the meat is no longer transparent in the center, about 5 minutes. Stir in the parsley, then season with salt, pepper, and red pepper flakes. Serve shrimp and sauce over prepared penne pasta. Sprinkle with Parmesan cheese.',
       ],
-      comments: []
+      comments: ['The best recipe ever.', 'I love it!']
     },
     {
       id: 4,
@@ -157,7 +157,7 @@ const newRecipes = [
         '2. Beat cream cheese until fluffy. Add condensed milk and 1/2 cup of the raspberry puree and mix until well blended. Fold in whipped topping.',
         '3. Spoon evenly into baking cups. Freeze for at least 5 hours. When ready to serve, remove paper liners. Invert cakes onto individual serving plates. Drizzle remaining raspberry puree over cakes. Garnish with a few whole raspberries. Serve frozen.'
       ],
-      comments: []
+      comments: ['I will add more cream cheese next time.']
     },
     {
       id: 9,

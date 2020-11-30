@@ -6,6 +6,9 @@ logo font
 main font
 */
 @import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100&display=swap');
+/*
+all colors used for this projecrs
+*/
 :root{
   --main-color: #F1E3B4;
   --sub-color: #D68A1D;
@@ -20,16 +23,11 @@ main font
 remove the default values
 */
 
-h2{
+h2,h4,h3,p{
   margin: 0;
 }
 
-ul{
-  margin: 0;
-  padding: 0;
-}
-
-ol{
+ul,ol{
   margin: 0;
   padding: 0;
 }
@@ -41,7 +39,8 @@ li{
 }
 
 /*
-body
+main page
+index.ejs styles
 */
 
 body{
@@ -67,6 +66,11 @@ body{
   color: var(--font-color);
   font-size: 2.5em;
 }
+
+/*
+nav styles
+nav.ejs
+*/
 
 #menu{
   display: none;
@@ -95,6 +99,8 @@ body{
   font-size: 1.7em;
   cursor: pointer;
 }
+
+/* banner */
 
 #banner{
   background-image: url("../images/banner02.jpg");
@@ -128,11 +134,9 @@ body{
   padding-left: 30px;
 }
 
-#addBtn{
-  width: 130px;
-  height: 70px;
-  margin-left: 20%;
-}
+/*
+recipe styles
+*/
 
 .containerTitle{
   text-transform: uppercase;
@@ -155,6 +159,10 @@ body{
   font-size: 2em;
 }
 
+.recipeSubTitle{
+  margin: 25px 0 10px 0;
+}
+
 .recipe{
   margin-bottom: 20%;
   text-align: center;
@@ -169,6 +177,13 @@ body{
 .recipeContent{
   text-align: left;
   padding: 10%;
+}
+
+/* comments */
+
+.comments h4{
+  font-size: 1.3em;
+  margin: 24px 0 14px 0;
 }
 
 .commentTextArea{
