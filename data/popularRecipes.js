@@ -11,7 +11,8 @@ const popularRecipes = [
     ],
     steps: [
       '1. In a large skillet, heat oil over medium heat. Salt and pepper chicken pieces to taste, then roll in flour to coat. Place chicken pieces in skillet and fry on medium heat until one side is golden brown, then turn and brown other side until chicken is no longer pink inside and its juices run clear. Drain on paper towel and serve!'
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Best Hamburger Ever',
@@ -27,7 +28,8 @@ const popularRecipes = [
       '1. Preheat oven to 350 degrees (175 degrees C).',
       '2. In a large bowl, mix together the ground beef, onion, cheese, soy sauce, Worcestershire sauce, egg, onion soup mix, garlic, garlic powder, parsley, basil, oregano, rosemary, salt, and pepper. Form into 4 patties.',
       '3. Grill patties for 5 minutes per side on the hot grill, or until well done. Serve on buns with your favorite condiments.'
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Spagetti',
@@ -50,7 +52,8 @@ const popularRecipes = [
     steps: [
       '1. Fill a large pot with lightly salted water and bring to a rolling boil over high heat. Once the water is boiling, stir in the penne, and return to a boil. Cook the pasta uncovered, stirring occasionally, until the pasta has cooked through, but is still firm to the bite, about 11 minutes. Drain well in a colander set in the sink.',
       '2. Heat the olive oil in a skillet over medium heat. Stir in the garlic and onion; cook and stir until the onion has softened and turned translucent, about 5 minutes. Stir in the tomatoes; simmer until heated through, about 5 minutes more. Add the lemon juice and shrimp. Cook and stir until the shrimp are bright pink on the outside and the meat is no longer transparent in the center, about 5 minutes. Stir in the parsley, then season with salt, pepper, and red pepper flakes. Serve shrimp and sauce over prepared penne pasta. Sprinkle with Parmesan cheese.',
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Sunday Dinner',
@@ -71,7 +74,8 @@ const popularRecipes = [
       '2. In a large saucepan, melt 1/2 cup butter. Remove from heat, and stir in sugar, eggs, and 1 teaspoon vanilla. Beat in 1/3 cup cocoa, 1/2 cup flour, salt, and baking powder. Spread batter into prepared pan.',
       '3. Bake in preheated oven for 25 to 30 minutes. Do not overcook.',
       '4. To Make Frosting: Combine 3 tablespoons softened butter, 3 tablespoons cocoa, honey, 1 teaspoon vanilla extract, and 1 cup confectioners sugar. Stir until smooth. Frost brownies while they are still warm.'
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Tomato Soup',
@@ -86,7 +90,8 @@ const popularRecipes = [
     ],
     steps: [
       '1. Melt butter in a medium saucepan over medium low heat. Add cream and simmer for 5 minutes, then add garlic and cheese and whisk quickly, heating through. Stir in parsley and serve.'
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Pork Tenderloin Diablo',
@@ -104,7 +109,8 @@ const popularRecipes = [
       '2. Remove the turkey neck and giblets, rinse the turkey, and pat dry with paper towels. Place the turkey, breast side up, on a rack in the roasting pan. Loosely fill the body cavity with stuffing. Rub the skin with the softened butter, and season with salt and pepper. Position an aluminum foil tent over the turkey.',
       '3. Place turkey in the oven, and pour 2 cups turkey stock into the bottom of the roasting pan. Baste all over every 30 minutes with the juices on the bottom of the pan. Whenever the drippings evaporate, add stock to moisten them, about 1 to 2 cups at a time. Remove aluminum foil after 2 1/2 hours. Roast until a meat thermometer inserted in the meaty part of the thigh reads 165 degrees F (75 degrees C), about 4 hours.',
       '4. Transfer the turkey to a large serving platter, and let it stand for at least 20 to 30 minutes before carving.'
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Salad',
@@ -125,7 +131,8 @@ const popularRecipes = [
       '2. Beat eggs until frothy; add butter, sugar and flour. Beat until smooth.',
       '3. Stir in buttermilk, vanilla, lemon juice and nutmeg; pour into pie shell.',
       '4. Bake for 40 to 60 minutes, or until center is firm.'
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Beef Ribs',
@@ -148,7 +155,8 @@ const popularRecipes = [
     steps: [
       '1. Fill a large pot with lightly salted water and bring to a rolling boil over high heat. Once the water is boiling, stir in the penne, and return to a boil. Cook the pasta uncovered, stirring occasionally, until the pasta has cooked through, but is still firm to the bite, about 11 minutes. Drain well in a colander set in the sink.',
       '2. Heat the olive oil in a skillet over medium heat. Stir in the garlic and onion; cook and stir until the onion has softened and turned translucent, about 5 minutes. Stir in the tomatoes; simmer until heated through, about 5 minutes more. Add the lemon juice and shrimp. Cook and stir until the shrimp are bright pink on the outside and the meat is no longer transparent in the center, about 5 minutes. Stir in the parsley, then season with salt, pepper, and red pepper flakes. Serve shrimp and sauce over prepared penne pasta. Sprinkle with Parmesan cheese.',
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Pie Pie Pie',
@@ -169,7 +177,8 @@ const popularRecipes = [
       '2. In a large saucepan, melt 1/2 cup butter. Remove from heat, and stir in sugar, eggs, and 1 teaspoon vanilla. Beat in 1/3 cup cocoa, 1/2 cup flour, salt, and baking powder. Spread batter into prepared pan.',
       '3. Bake in preheated oven for 25 to 30 minutes. Do not overcook.',
       '4. To Make Frosting: Combine 3 tablespoons softened butter, 3 tablespoons cocoa, honey, 1 teaspoon vanilla extract, and 1 cup confectioners sugar. Stir until smooth. Frost brownies while they are still warm.'
-    ]
+    ],
+    comments: []
   },
   {
     title: 'Healthy Juice',
@@ -184,7 +193,8 @@ const popularRecipes = [
     ],
     steps: [
       '1. Melt butter in a medium saucepan over medium low heat. Add cream and simmer for 5 minutes, then add garlic and cheese and whisk quickly, heating through. Stir in parsley and serve.'
-    ]
+    ],
+    comments: []
   }
 ];
 

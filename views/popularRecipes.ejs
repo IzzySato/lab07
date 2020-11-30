@@ -9,9 +9,11 @@
         <p><%=ingredient%></p>
       <%});%>
       <h3 class="recipeSubTitle">Steps:</h3>
-      <%recipe.steps.forEach(step => {%>
-        <p><%=step%></p>
-      <%});%>
+      <ul>
+        <%recipe.steps.forEach(step => {%>
+          <li><%=step%></li>
+        <%});%>
+      </ul>
     </div>
   </li>
 <%});%>

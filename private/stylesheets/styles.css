@@ -11,9 +11,8 @@ main font
   --sub-color: #D68A1D;
   --sub-hover-color: #b97617;
   --font-color: #251e07;
+  --font-sub-color: white;
   --font-sub-color: #fcf0df;
-  --christmas-red: #D02743;
-  --christmas-green: #19A936;
   --menu-color: white;
 }
 
@@ -26,6 +25,11 @@ h2{
 }
 
 ul{
+  margin: 0;
+  padding: 0;
+}
+
+ol{
   margin: 0;
   padding: 0;
 }
@@ -165,6 +169,23 @@ body{
 .recipeContent{
   text-align: left;
   padding: 10%;
+}
+
+.commentTextArea{
+  border-radius: 10px;
+}
+
+.btn{
+  padding: 6px;
+  border-radius: 5px;
+  background-color: var(--sub-color);
+  color: var(--font-sub-color);
+  border: none;
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: var(--sub-hover-color);
 }
 
 footer{
